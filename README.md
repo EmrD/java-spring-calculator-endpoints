@@ -1,10 +1,12 @@
-# Java API Service Starter
+# Calculator Endpoints Using Java Spring 
 
-This is a minimal Java API service starter based on [Google Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-java-service).
+This is a minimal Java Spring starter project based on calculator with endpoints.
 
 ## Getting Started
 
-Server should run automatically when starting a workspace. To run manually, run:
+To start, run:
 ```sh
 mvn spring-boot:run
 ```
+
+Then go to ``http://localhost:8080/YOUR_OPERATION?numberOne=FIRST_NUMBER&numberTwo=SECOND_NUMBER`` on your browser.
